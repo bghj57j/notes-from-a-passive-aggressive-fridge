@@ -18,7 +18,7 @@ def main():
     os.makedirs(out, exist_ok=True)
     path = os.path.join(out, "entry.txt")
     with open(path, "w", encoding="utf-8", newline="") as f:
-        f.write(NOTE)  # 80 chars, gate allows 200; the sting lands last
+        f.write(NOTE)  # 77 chars, gate allows 200; the sting lands last
 
 
 if __name__ == "__main__":
